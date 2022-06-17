@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="all">
+    <div class="left-side">
+        <div class="logo-bar">
+            <img src="id-card.png" alt="logo">
+            <div>RaghRoog</div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="text">
+            This is not real online service! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </div>
+        <div class="form-container">
+                    <p>Sign-up!</p>
+            <form> 
+            <div class="left">      
+                <div>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                </div>                 
+            </div>              
+            <div class="right">
+                <div>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>               
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-789">
+                </div>               
+                <div>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+            </div>   
+            <div class="button-container">
+            <button class="submit" type="submit">Sign-up!</button>    
+            <div class="not-match"></div>  
+            </div> 
+            </form>
+        </div>
+        <div class="log-in">Already have an account? <a href="#"><span style="color:rgba(192,128,85,255) ;">Log in.</a></span></div>
+    </div>
+</div>
+</body>
+</html>
